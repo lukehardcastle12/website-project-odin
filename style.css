@@ -1,3 +1,7 @@
+html, body{
+    margin:0;
+    padding:0;
+}
 body{
     display:flex;
     flex-direction: column;
@@ -11,8 +15,9 @@ body{
     
 }
 .logo{
-    font-size: 24px;
+    font-size: 36px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .navbar{
@@ -25,6 +30,7 @@ body{
 }
 .links{
     justify-content: flex-end;
+    
 }
 .hero{
     display:flex;
@@ -32,7 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     gap:24px;
-    padding: 24px;
+    padding: 60px;
 }
 .header-left{
     display: flex;
@@ -44,23 +50,24 @@ body{
     font-size: 48px;
     font-weight:  extra-bold;
     color: #F9FAF8;
-    width: 300px;
+    width: 400px;
 }
 .header-left > .subtext{
    font-size: 18px;
    color: #E5E7EB; 
-   width: 300px;
+   width: 400px;
    margin-top: 12px;
    margin-bottom:12px;
    
 }
-.header-left button{
+.header-left > a{
     background-color: #3882F6;
-    border-radius: 15px;
+    border-radius: 8px;
     padding:10px;
     width: 100px;
     color: #E5E7EB;
-    border: 0;
+    font-weight: bold;
+    text-align: center;
 }
 .image{
     display: flex;
@@ -137,6 +144,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 48px;
 }
 .quote{
     width: 600px;
@@ -150,6 +158,48 @@ a{
     font-size: 24px;
     justify-content: flex-end;
 }
+.call{
+    background-color: #3882f6;
+    color:#E5E7EB;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    padding: 48px;
+    margin-bottom: 48px;
+}
+.action-button{
+    display: flex;
+}
+
+.action-button > a{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding:10px;
+    width: 100px;
+    color: #E5E7EB;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #E5E7EB; 
+}
+.action{
+    display: flex;
+    flex-direction: column;
+}
+.action-header{
+    font-size: 36px;
+}
+.action-text{
+    font-size: 18px;
+}
 .footer{
     background-color: #1F2937;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #E5E7EB;
+    padding: 36px;
 }
